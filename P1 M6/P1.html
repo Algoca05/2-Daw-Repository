@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <script src = P1.js defer ></script>
+</head>
+
+
+<body>
+    <header style="background-color: #ff0000; " id="header">
+        <h1   >PRIMER EJERCICIO M6   </h1>
+        <nav >
+            <ul>
+                
+                <li><a href="#compare">Comparador de textos</a></li>
+                <li><a href="#operation">Raiz Cuadrada</a></li>
+                <li><a href="#change">Cambio de color</a></li>
+                <li> <a href="#random">Adivina la palabra</a></li>
+                <li><a href="#count">Contar Letras</a></li>
+                <li><a href="#plus">Concatena Textos</a></li>
+                <li><a href="#px">Cambio tamaño</a></li>
+                    
+                
+            </ul>
+        </nav>
+    </header>
+  <div id = "compare">
+    <h2>Comparador de textos</h2>
+    
+        <input type="text" id="texto1">
+       <span id="=">=</span>
+        <input type="text" id="texto2">
+        
+        <br><br> 
+       
+  </div>
+
+  <div id = "operation">
+    <h2>Raiz Cuadrada</h2>
+    <input type="number" id="numberOperation" >
+    <span> =</span>
+    <span id="operationResult">null</span>
+    <br><br> 
+    </div>
+
+
+    <div id = "change">
+        <h2>Cambio de color del header y del footer</h2>
+        <input type="radio" id="verde" name = "botton"  > <span>Verde</span>
+        <input type="radio" id="azul" name = "botton" > <span>Azul</span>
+        <input type="radio" id="rojo" name = "botton" checked> <span>Rojo</span>
+        
+        
+        <br><br>     
+    </div>
+
+
+    <div id = "random">
+        <h2>Adivina la Palabra</h2>
+        <p id="tamaño">La palabra tiene 5 letras</p>
+        <input type="text" id="textoRandom" maxlength="5">
+       
+        <span id="randomNumber">Has acertado 0 Letra</span>
+       <br>
+       <span>Reestablece la palabra</span>
+       <input type="button" id="buttonRandom" style="width: 100px;">
+        <br><br> 
+    </div>
+
+
+    <div id = "count">
+        <h2>Contar Letras</h2>
+        <input type="text" id="textoCount" maxlength="30">
+        <span>number =</span>
+        <span id="countNumber">0</span>
+        <br><br> 
+    </div>
+
+
+    <div id = "plus">
+        <h2>Concatenar Palabras</h2>
+        <input type="text" id="texto1Conc">
+        <span> + </span>
+        <input type="text" id="texto2Conc">
+        <span> = </span>
+        <span id="concatenado"></span>
+        <br><br> 
+    </div>
+
+            
+    <div id = "px">
+        <h2>Cambio de Tamaño</h2>
+        <span>Ancho de la imagen (max: 250px): </span>
+        <input type="number" id="widthInput">
+        <br>
+        <span>Altura de la imagen (max: 350px): </span>
+        <input type="number" id="heigthInput">
+        <br><br>
+        <div id="imagenDiv">
+            <img id="imagen" src="./fotos/gojo.jpg" alt="Imagen redimensionable" style="height: 266px;" style="width: 190px;">
+      </div>  
+    
+        
+        
+        
+    </div>
+  
+
+<footer style="background-color: #ff0000; " id="footer">
+    <h1>Footer By Alejandro Gómez Capilla</h1>
+</footer>
+
+</body>
+</html>

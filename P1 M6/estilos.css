@@ -1,0 +1,73 @@
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+h2{
+    font-size: 35px;
+}
+div{
+    padding: 1%;
+    outline: solid;
+}
+/*quitar borde*/
+nav, #imagenDiv{
+    padding: 0%;
+    outline:solid 0px;
+}
+
+ul{
+    font-size: 150%;
+    
+    text-decoration: none;
+    
+    list-style-type: none;
+    overflow: hidden;
+    
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+}
+li a:hover {
+    color: #850c70;
+}
+#imagenDiv{
+
+    height: 400px;
+}
+input{
+    width: 250px;
+    height: 30px;
+}
+#verde,#rojo,#azul{
+width: 25px;
+}
+#widthInput,#heigthInput{
+    width: 50px;
+}
+/* #compare{
+}
+
+#operation{
+}
+
+#change{
+}
+
+#random{
+}
+
+#count{
+}
+
+#plus{
+}
+
+#px{
+} */
