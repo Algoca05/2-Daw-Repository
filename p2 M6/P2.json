@@ -1,0 +1,439 @@
+{
+    "questions": [
+      {
+        "question": "¿Quién es el principal antagonista en Elden Ring?",
+        "answers": [
+          { "text": "La Reina Márika", "is_correct": true },
+          { "text": "El Lobo Feroz", "is_correct": false },
+          { "text": "Ranni la Bruja", "is_correct": false },
+          { "text": "El Caballero Negro", "is_correct": false }
+        ]
+      },
+      {
+        "question": "¿Qué tipo de arma es la 'Espada de la Noche y la Llama'?",
+        "answers": [
+          { "text": "Espada larga", "is_correct": true },
+          { "text": "Martillo", "is_correct": false },
+          { "text": "Lanza", "is_correct": false },
+          { "text": "Hacha", "is_correct": false }
+        ]
+      },
+      {
+        "question": "¿Qué personaje te ofrece el primer caballo en Elden Ring?",
+        "answers": [
+          { "text": "Melina", "is_correct": true },
+          { "text": "Fia", "is_correct": false },
+          { "text": "Renna", "is_correct": false },
+          { "text": "Blaidd", "is_correct": false }
+        ]
+      },
+      {
+        "question": "¿Cómo se llama el caballo que puedes montar en el juego?",
+        "answers": [
+          { "text": "Torrentera", "is_correct": true },
+          { "text": "Sombra", "is_correct": false },
+          { "text": "Tormenta", "is_correct": false },
+          { "text": "Rayo", "is_correct": false }
+        ]
+      },
+      {
+        "question": "¿Qué característica define la clase 'Samurai'?",
+        "answers": [
+          { "text": "Alta destreza y habilidad con arcos y katanas", "is_correct": true },
+          { "text": "Poderosos ataques mágicos", "is_correct": false },
+          { "text": "Alta resistencia física y uso de escudos pesados", "is_correct": false },
+          { "text": "Especialización en sigilo", "is_correct": false }
+        ]
+      },
+      {
+        "question": "¿Qué efecto produce la ceniza de guerra 'Hoja sangrienta'?",
+        "answers": [
+          { "text": "Inflige daño de sangrado", "is_correct": true },
+          { "text": "Aumenta el daño por hielo", "is_correct": false },
+          { "text": "Proporciona resistencia a la magia", "is_correct": false },
+          { "text": "Incrementa la defensa física", "is_correct": false }
+        ]
+      },
+      {
+        "question": "¿Qué son las 'Runas' en Elden Ring?",
+        "answers": [
+          { "text": "Moneda del juego y puntos de experiencia", "is_correct": true },
+          { "text": "Objetos coleccionables que aumentan la vida máxima", "is_correct": false },
+          { "text": "Un tipo de magia avanzada", "is_correct": false },
+          { "text": "Llaves para abrir cofres secretos", "is_correct": false }
+        ]
+      },
+      {
+        "question": "¿Qué ocurre cuando mueres en Elden Ring?",
+        "answers": [
+          { "text": "Pierdes todas tus runas", "is_correct": true },
+          { "text": "Revives con la mitad de vida", "is_correct": false },
+          { "text": "Pierdes todo tu equipo", "is_correct": false },
+          { "text": "Pierdes habilidades mágicas", "is_correct": false }
+        ]
+      },
+      {
+        "question": "¿Qué jefe final se encuentra en la ciudad de Leyndell?",
+        "answers": [
+          { "text": "Morgott, el Rey Omen", "is_correct": true },
+          { "text": "Godrick el Injertado", "is_correct": false },
+          { "text": "Radahn, el Azote de las Estrellas", "is_correct": false },
+          { "text": "Renalla, Reina de la Luna Llena", "is_correct": false }
+        ]
+      },
+      {
+        "question": "¿Qué elemento es clave para mejorar las frascos de salud en Elden Ring?",
+        "answers": [
+          { "text": "Lágrimas de oro", "is_correct": true },
+          { "text": "Cristales de vida", "is_correct": false },
+          { "text": "Fragmentos de runa", "is_correct": false },
+          { "text": "Almas de dragón", "is_correct": false }
+        ]
+      },
+      {
+        "question": "¿Qué significa 'manchado' en el contexto del juego?",
+        "answers": [
+          { "text": "Es el título del protagonista", "is_correct": true },
+          { "text": "Es un estado alterado que causa penalizaciones", "is_correct": false },
+          { "text": "Es una maldición que afecta a los enemigos", "is_correct": false },
+          { "text": "Es un poder mágico oscuro", "is_correct": false }
+        ]
+      },
+      {
+        "question": "¿Qué tipo de enemigo es el 'Dragón de Greyll'?",
+        "answers": [
+          { "text": "Un dragón anciano", "is_correct": true },
+          { "text": "Un jefe en Leyndell", "is_correct": false },
+          { "text": "Un caballero legendario", "is_correct": false },
+          { "text": "Una criatura subterránea", "is_correct": false }
+        ]
+      },
+      {
+        "question": "¿Qué objeto se usa para invocar aliados o enemigos en Elden Ring?",
+        "answers": [
+          { "text": "Cenizas espirituales", "is_correct": true },
+          { "text": "Amuletos de invocación", "is_correct": false },
+          { "text": "Piedras rúnicas", "is_correct": false },
+          { "text": "Fragmentos de alma", "is_correct": false }
+        ]
+      },
+      {
+        "question": "¿Cuál de estos no es uno de los fragmentos del Anillo de Elden?",
+        "answers": [
+          { "text": "Fragmento de la Gema Lunar", "is_correct": true },
+          { "text": "Fragmento de la Muerte", "is_correct": false },
+          { "text": "Fragmento del Destino", "is_correct": false },
+          { "text": "Fragmento de la Vida", "is_correct": false }
+        ]
+      },
+      {
+        "question": "¿Cómo se llama la espada mítica que corta las estrellas en el juego?",
+        "answers": [
+          { "text": "Espada de Ruina Estelar", "is_correct": true },
+          { "text": "Espada de las Sombras", "is_correct": false },
+          { "text": "Gran Hoja Celestial", "is_correct": false },
+          { "text": "Espada del Juicio Final", "is_correct": false }
+        ]
+      },
+      {
+        "question": "¿Qué tipo de enemigos suelen encontrarse en las Catacumbas del Necrolimbo?",
+        "answers": [
+          { "text": "Esqueletos y trampas", "is_correct": true },
+          { "text": "Dragones", "is_correct": false },
+          { "text": "Caballeros dorados", "is_correct": false },
+          { "text": "Guerreros fantasmas", "is_correct": false }
+        ]
+      },
+      {
+        "question": "¿Qué es el 'Árbol Áureo'?",
+        "answers": [
+          { "text": "El árbol sagrado que representa la fuerza de la Tierra", "is_correct": true },
+          { "text": "Un jefe final del juego", "is_correct": false },
+          { "text": "Un hechizo legendario", "is_correct": false },
+          { "text": "Un tipo de arma mágica", "is_correct": false }
+        ]
+      },
+      {
+        "question": "¿Qué habilidad proporciona la clase 'Profeta'?",
+        "answers": [
+          { "text": "Curación y hechizos sagrados", "is_correct": true },
+          { "text": "Teletransportación", "is_correct": false },
+          { "text": "Control sobre los elementos", "is_correct": false },
+          { "text": "Alta resistencia física", "is_correct": false }
+        ]
+      },
+      {
+        "question": "¿Qué jefes debes derrotar para entrar en la meseta de Altus?",
+        "answers": [
+          { "text": "Dúo de Centinelas Arbóreos", "is_correct": true },
+          { "text": "Radahn y Renalla", "is_correct": false },
+          { "text": "Malenia y Mogh", "is_correct": false },
+          { "text": "Godfrey y Morgott", "is_correct": false }
+        ]
+      },
+      {
+        "question": "¿Cuál de estos personajes es un aliado que te ayuda a lo largo del juego?",
+        "answers": [
+          { "text": "Blaidd, el Semilobo", "is_correct": true },
+          { "text": "Morgott, el Rey Omen", "is_correct": false },
+          { "text": "Radahn, el Azote de las Estrellas", "is_correct": false },
+          { "text": "Godrick el Injertado", "is_correct": false }
+        ]
+      },
+    
+        {
+        "question": "¿Qué habilidad especial tiene el hechizo 'Lluvia de estrellas de Azur'?",
+        "answers": [
+            { "text": "Desata un torrente de rayos cósmicos", "is_correct": true },
+            { "text": "Incrementa la defensa mágica", "is_correct": false },
+            { "text": "Invoca un ejército de espíritus", "is_correct": false },
+            { "text": "Lanza una tormenta de hielo", "is_correct": false }
+        ]
+        },
+        {
+        "question": "¿Cuál es la debilidad principal de Malenia, la Espada de Miquella?",
+        "answers": [
+            { "text": "Sangrado", "is_correct": true },
+            { "text": "Veneno", "is_correct": false },
+            { "text": "Fuego", "is_correct": false },
+            { "text": "Magia arcana", "is_correct": false }
+        ]
+        },
+        {
+        "question": "¿Cómo se llama la zona inicial en Elden Ring?",
+        "answers": [
+            { "text": "Necrolimbo", "is_correct": true },
+            { "text": "Cuna del Dragón", "is_correct": false },
+            { "text": "Altus", "is_correct": false },
+            { "text": "Leindell", "is_correct": false }
+        ]
+        },
+        {
+        "question": "¿Qué objeto necesitas para usar magia en Elden Ring?",
+        "answers": [
+            { "text": "Báculo o sello sagrado", "is_correct": true },
+            { "text": "Espada de cristal", "is_correct": false },
+            { "text": "Runa de poder", "is_correct": false },
+            { "text": "Ceniza de guerra", "is_correct": false }
+        ]
+        },
+        {
+        "question": "¿Qué jefes se enfrentan en la arena de Caelid?",
+        "answers": [
+            { "text": "Radahn, el Azote de las Estrellas", "is_correct": true },
+            { "text": "Godfrey, el Primer Lord", "is_correct": false },
+            { "text": "Malenia, la Espada de Miquella", "is_correct": false },
+            { "text": "Rennala, Reina de la Luna Llena", "is_correct": false }
+        ]
+        },
+        {
+        "question": "¿Qué tipo de enemigo es el 'Gárgola Valiant'?",
+        "answers": [
+            { "text": "Un jefe opcional de dos fases", "is_correct": true },
+            { "text": "Un dragón legendario", "is_correct": false },
+            { "text": "Un espectro invocado", "is_correct": false },
+            { "text": "Un caballero de Leyndell", "is_correct": false }
+        ]
+        },
+        {
+        "question": "¿Cómo se puede aumentar el número de usos de los frascos de salud?",
+        "answers": [
+            { "text": "Encontrando semillas doradas", "is_correct": true },
+            { "text": "Subiendo de nivel", "is_correct": false },
+            { "text": "Derrotando a ciertos jefes", "is_correct": false },
+            { "text": "Usando piedras de forja", "is_correct": false }
+        ]
+        },
+        {
+        "question": "¿Qué jefe se conoce como el 'Elgin Mariketh'?",
+        "answers": [
+            { "text": "La Bestia del Crisol", "is_correct": false },
+            { "text": "Radagon de la Orden Dorada", "is_correct": false },
+            { "text": "Eliseo Oscuro", "is_correct": false },
+            { "text": "Maliketh, la Espada Negra", "is_correct": true }
+        ]
+        },
+        {
+        "question": "¿Cuál es el estado alterado más infligido por los enemigos en la región de Caelid?",
+        "answers": [
+            { "text": "Podredumbre escarlata", "is_correct": true },
+            { "text": "Sangrado", "is_correct": false },
+            { "text": "Veneno", "is_correct": false },
+            { "text": "Congelación", "is_correct": false }
+        ]
+        },
+        {
+        "question": "¿Cómo se llama la hija de Rennala?",
+        "answers": [
+            { "text": "Ranni", "is_correct": true },
+            { "text": "Malenia", "is_correct": false },
+            { "text": "Melina", "is_correct": false },
+            { "text": "Miquella", "is_correct": false }
+        ]
+        },
+        {
+        "question": "¿Qué lugar alberga el 'Árbol Sacro de Miquella'?",
+        "answers": [
+            { "text": "Haligtree", "is_correct": true },
+            { "text": "Monte Gelmir", "is_correct": false },
+            { "text": "Academia de Raya Lucaria", "is_correct": false },
+            { "text": "Leyndell", "is_correct": false }
+        ]
+        },
+        {
+        "question": "¿Cuál es la recompensa por derrotar a Rennala, Reina de la Luna Llena?",
+        "answers": [
+            { "text": "El Gran Runa y el respeto", "is_correct": true },
+            { "text": "Lágrimas doradas", "is_correct": false },
+            { "text": "Cenizas de un antiguo guerrero", "is_correct": false },
+            { "text": "Una runa de muerte", "is_correct": false }
+        ]
+        },
+        {
+        "question": "¿Qué habilidad tiene la ceniza de guerra 'Hoja Sagrada'?",
+        "answers": [
+            { "text": "Añade daño sagrado al arma", "is_correct": true },
+            { "text": "Causa daño por hielo", "is_correct": false },
+            { "text": "Incrementa la defensa física", "is_correct": false },
+            { "text": "Aumenta la velocidad de ataque", "is_correct": false }
+        ]
+        },
+        {
+        "question": "¿Qué estatua activa las mazmorras de los héroes?",
+        "answers": [
+            { "text": "Estatua de Marika", "is_correct": true },
+            { "text": "Estatua de Radagon", "is_correct": false },
+            { "text": "Estatua de los Gigantes", "is_correct": false },
+            { "text": "Estatua de los Duelos", "is_correct": false }
+        ]
+        },
+        {
+        "question": "¿Quién es el creador del Anillo de Elden?",
+        "answers": [
+            { "text": "La Reina Márika", "is_correct": true },
+            { "text": "Godfrey", "is_correct": false },
+            { "text": "Radagon", "is_correct": false },
+            { "text": "Renna", "is_correct": false }
+        ]
+        },
+        {
+        "question": "¿Cómo se llama el espíritu de lobo gigante que puedes invocar?",
+        "answers": [
+            { "text": "Lhutel", "is_correct": false },
+            { "text": "Blaidd", "is_correct": false },
+            { "text": "Torrentera", "is_correct": false },
+            { "text": "Espíritu de Lobo Solitario", "is_correct": true }
+        ]
+        },
+        {
+        "question": "¿Qué área en Elden Ring está envuelta en niebla y veneno?",
+        "answers": [
+            { "text": "Lago de la Podredumbre", "is_correct": true },
+            { "text": "Academia de Raya Lucaria", "is_correct": false },
+            { "text": "Monte Gelmir", "is_correct": false },
+            { "text": "Haligtree", "is_correct": false }
+        ]
+        },
+        {
+        "question": "¿Qué tipo de arma es el 'Colmillo de Sangre de Dragón'?",
+        "answers": [
+            { "text": "Mandoble", "is_correct": true },
+            { "text": "Espada recta", "is_correct": false },
+            { "text": "Katana", "is_correct": false },
+            { "text": "Lanza", "is_correct": false }
+        ]
+        },
+        {
+        "question": "¿Qué personaje te permite modificar tu apariencia en Elden Ring?",
+        "answers": [
+            { "text": "Rennala, Reina de la Luna Llena", "is_correct": true },
+            { "text": "Melina", "is_correct": false },
+            { "text": "Fia, la compañera de la muerte", "is_correct": false },
+            { "text": "Boc, el sastre", "is_correct": false }
+        ]
+        },
+        {
+        "question": "¿Qué enemigo masivo lucha con múltiples ataques de cola en la Meseta de Altus?",
+        "answers": [
+            { "text": "Árbol Avatar", "is_correct": false },
+            { "text": "Gárgola Valiant", "is_correct": true },
+            { "text": "Dragón de Greyll", "is_correct": false },
+            { "text": "Elfos Alados", "is_correct": false }
+        ]
+        },
+        {
+        "question": "¿Cuál es el nivel máximo de mejora de armas con piedras de forja sombrias?",
+        "answers": [
+            { "text": "+10", "is_correct": true },
+            { "text": "+15", "is_correct": false },
+            { "text": "+20", "is_correct": false },
+            { "text": "+25", "is_correct": false }
+        ]
+        },
+        {
+        "question": "¿Qué personaje tiene múltiples brazos y es conocido como el 'Injertado'?",
+        "answers": [
+            { "text": "Godrick", "is_correct": true },
+            { "text": "Radahn", "is_correct": false },
+            { "text": "Margit", "is_correct": false },
+            { "text": "Mogh", "is_correct": false }
+        ]
+        },
+        {
+        "question": "¿Qué es la 'Medalla de Dectus'?",
+        "answers": [
+            { "text": "Un objeto que permite acceder a la Gran Elevador de Dectus", "is_correct": true },
+            { "text": "Un amuleto que aumenta la defensa", "is_correct": false },
+            { "text": "Un medallón que mejora las habilidades mágicas", "is_correct": false },
+            { "text": "Un objeto para abrir la puerta del Árbol Áureo", "is_correct": false }
+        ]
+        },
+        {
+        "question": "¿Quién es la contraparte masculina de la Reina Márika?",
+        "answers": [
+            { "text": "Radagon", "is_correct": true },
+            { "text": "Godrick", "is_correct": false },
+            { "text": "Maliketh", "is_correct": false },
+            { "text": "Radahn", "is_correct": false }
+        ]
+        },
+        {
+        "question": "¿Qué es el 'Lago de la Podredumbre'?",
+        "answers": [
+            { "text": "Una vasta área venenosa en las profundidades del juego", "is_correct": true },
+            { "text": "Un lugar sagrado cerca del Árbol Áureo", "is_correct": false },
+            { "text": "La arena donde luchas contra Radahn", "is_correct": false },
+            { "text": "Una región habitada por dragones", "is_correct": false }
+        ]
+        },
+        {
+        "question": "¿Qué personaje se convierte en tu aliado en el Haligtree?",
+        "answers": [
+            { "text": "Millicent", "is_correct": true },
+            { "text": "Melina", "is_correct": false },
+            { "text": "Ranni", "is_correct": false },
+            { "text": "Blaidd", "is_correct": false }
+        ]
+        },
+        {
+        "question": "¿Qué es el 'Poder del Dragón' en Elden Ring?",
+        "answers": [
+            { "text": "Una habilidad que otorga el aliento del dragón y ataques basados en dragones", "is_correct": true },
+            { "text": "Una mejora permanente a la salud", "is_correct": false },
+            { "text": "Un objeto que invoca a un dragón", "is_correct": false },
+            { "text": "Una maldición que afecta a los jefes", "is_correct": false }
+        ]
+        },
+        {
+        "question": "¿Cómo se llama la espada usada por Blaidd?",
+        "answers": [
+            { "text": "Gran Espada Real", "is_correct": true },
+            { "text": "Espada de la Luna Negra", "is_correct": false },
+            { "text": "Hoja de la Ruina", "is_correct": false },
+            { "text": "Espada de Sangre", "is_correct": false }
+        ]
+        }
+    
+    
+    ]
+  }
