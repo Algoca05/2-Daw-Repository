@@ -29,9 +29,17 @@ document.getElementById("textoCount").addEventListener("keyup", count, false);
 
 function operation(){
     let number = document.getElementById("numberOperation").value;
+    let negativo = "";
+    if (number == "e"){
+        number = Math.E;
+    }
+    if (number<0){
+        number *= -1;
+        negativo = "i";
+    }
     let raiz = Math.sqrt(number).toFixed(2);
     
-    document.getElementById("operationResult").innerHTML = raiz;
+    document.getElementById("operationResult").innerHTML =negativo+ raiz;
 }
 document.getElementById("numberOperation").addEventListener("keyup", operation, false);
 

@@ -1,0 +1,28 @@
+[
+    {
+        "jugador": "Javier",
+        "img": "javi.jpg",
+        "aficiones": [
+            "pescar",
+            "correr",
+            "videojuegos"
+        ],
+        "direcciones": {
+            "casa": "calle falsa 123",
+            "trabajo": "calle real 456"
+        }
+    },
+    {
+        "jugador": "Roberto",
+        "img": "roberto.jpg",
+        "aficiones": [
+            "bajo",
+            "correr",
+            "leer"
+        ],
+        "direcciones": {
+            "casa": "calle falsa 456",
+            "trabajo": "calle real 789"
+        }
+    }
+]
