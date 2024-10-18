@@ -1,27 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Elden Talent</title>
-    <link rel="stylesheet" type="text/css" href="estilos.css">
-    <script src = P2.js defer ></script>
-</head>
+    <link rel="stylesheet" type="text/css" href="estilos.css" />
+    <script src="P2.js" defer></script>
+  </head>
 
+  <body>
+    <!--  <div class="background"></div> -->
 
-<body>
-    <div class="background"></div>
-
-    <header class="headerPreguntas">
-        <h1>Elden Talent 2024</h1>
-        
-    </header>
+    <header class="headerPreguntas"><h1>Elden Talent 2024</h1></header>
     <div class="preguntas">
-        <div id="quiz-container">
-            
+      <div class="quiz-container">
+        <div class="quiz" id="quiz">
+            <div id="preguntas" value="preguntas" name="preguntas"></div>
         </div>
-
-
+        
+      </div>
+      <div id="validate"> <button onclick="validateAnswers()">Validar Respuestas</button></div>
     </div>
-</body>
+  </body>
 </html>

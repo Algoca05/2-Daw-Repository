@@ -81,7 +81,7 @@
         ]
       },
       {
-        "question": "¿Qué elemento es clave para mejorar las frascos de salud en Elden Ring?",
+        "question": "¿Qué elemento es clave para mejorar los frascos de salud en Elden Ring?",
         "answers": [
           { "text": "Lágrimas de oro", "is_correct": true },
           { "text": "Cristales de vida", "is_correct": false },
@@ -334,7 +334,7 @@
         ]
         },
         {
-        "question": "¿Qué tipo de arma es el 'Colmillo de Sangre de Dragón'?",
+        "question": "¿Qué tipo de arma es la 'Hoja de Sabueso'?",
         "answers": [
             { "text": "Mandoble", "is_correct": true },
             { "text": "Espada recta", "is_correct": false },
