@@ -1,27 +1,34 @@
-let nombre = "";
-let email = "";
-let money = 0;
+
 
 function registrationForm() {
-    nombre = document.getElementById('name').value;
-    email = document.getElementById('email').value;
-    money = document.getElementById('money').value;
+    let nombre = document.getElementById('name').value;
+    let email = document.getElementById('email').value;
+    let money = document.getElementById('money').value;
 
-    console.log('Nombre:', nombre);
-    console.log('Correo Electrónico:', email);
-    console.log('Datos Bancarios:', money);
-    return nombre, email, money;
+    localStorage.setItem('nombre', nombre);
+    localStorage.setItem('email', email);
+    localStorage.setItem('money', money);
+
+    window.location.href = 'Preguntas.html';
+    window.location.href = 'Concurso-Elden-Ring.html';
+    window.location.href = 'Registro.html';
+
+
 }
-console.log(document.getElementById('submit'));
+
 
 
 let preguntasJson = [];
 let currentQuestions = [];
 let correctAnswersCount = 0;
 let totalQuestions = 0;
+let nombre = localStorage.getItem('nombre');
+let email = localStorage.getItem('email');
+let money = localStorage.getItem('money');
 
-
-
+console.log('Nombre:', nombre);
+console.log('Correo Electrónico:', email);
+console.log('Datos Bancarios:', money);
 
 async function loadQuestions() {
     let response = await fetch('./P2.json');
@@ -93,16 +100,15 @@ function validateAnswers() {
             correctAnswers++;
         }
     });
-    
-    if (correctAnswers === 2 && correctAnswersCount<=9) {
+
+    if (correctAnswers === 2) {
         correctAnswersCount += 2;
-        alert('¡Correcto! Generando nuevas preguntas...');
         lockPreviousQuestions();
         generateQuestions();
-    } else if (correctAnswersCount != 10) {
+    } else {
         alert('Has perdido. Volviendo al inicio...');
         generateResultFile(false);
-        location.reload(); // Recargar la página para reiniciar
+        window.location.href = "Concurso-Elden-Ring.html";
     }
 }
 
@@ -119,6 +125,7 @@ function generateResultFile(hasWon) {
     let result = {
         nickname: nombre,
         email: email,
+        banc: money,
         correctAnswers: correctAnswersCount,
         incorrectAnswers: totalQuestions - correctAnswersCount,
         hasWon: hasWon
@@ -127,12 +134,13 @@ function generateResultFile(hasWon) {
     let resultJson = JSON.stringify(result, null, 2);
     let blob = new Blob([resultJson], { type: 'application/json' });
     let url = URL.createObjectURL(blob);
-    let resultado = document.createElement('resultado');
-    resultado.href = url;
-    resultado.download = 'result.json';
-    document.body.appendChild(resultado);
-    resultado.click();
-    document.body.removeChild(resultado);
+    let a = document.createElement('a');
+    a.href = url;
+    a.download = 'result.json';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
 }
 
 loadQuestions();
+document.getElementById("submit").addEventListener("click", registrationForm, false);
